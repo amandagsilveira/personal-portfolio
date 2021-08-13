@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffde59;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #c9184a;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  
+}
+
+nav a {
+  color: #ffffff;
+  margin-left: 30px;
+  text-decoration: none; 
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80');
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  background-color: #351c43;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+header * {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-top:0;
+}
+
+header p {
+  font-size: 30px;
+  margin: 0;
+}
+
+section {
+  padding: 30px; 
+  text-align: center;
+  
+}
+
+section h2 {
+  margin-bottom: 0;
+}
+ 
+section p{
+  margin-top: 0;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto ;
+}
+
+.project {
+  margin: 50px;
+  max-width: 250px;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.back-color {
+  background-color: #01949a;
+}
+
+.social-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-ul a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #c9184a;
+  padding: 20px;
+  text-align: center;
+}
