@@ -111,9 +111,6 @@ section {
 .project {
   margin: 50px;
   max-width: 250px;
-  border: solid 5px;
-  border-radius: 5px;
-  border-color: #fad2e1;
 }
 
 .project a {
@@ -126,6 +123,9 @@ section {
 
 .project img {
   max-width: 100%;
+  border: solid 5px;
+  border-radius: 5px;
+  border-color: #fad2e1;
 }
 
 .project p {
